@@ -1,3 +1,4 @@
+# 1
 def SqrRoot(x):
     return x ** (1 / 2)
 
@@ -5,6 +6,7 @@ def SqrRoot(x):
 # print(SqrRoot(x))
 
 
+# 2
 def TranslateNumberToText(x):
     translate = ["Noll", "Ett", "Två", "Tre", "Fyra",
                  "Fem", "Sex", "Sju", "Åtta", "Nio"]
@@ -14,6 +16,7 @@ def TranslateNumberToText(x):
 # print(TranslateNumberToText(x))
 
 
+# 3
 def PrintSquareCube():
     for i in range(1, 11):
         print(str(i) + " " + str(i ** 2) + " " + str(i ** 3))
@@ -21,10 +24,12 @@ def PrintSquareCube():
 # PrintSquareCube()
 
 
+# 4
 def PrintTriangularNumberA(x):
     return (x * (x + 1)) / 2
 
 
+# 5
 def PrintTriangularNumberB(x):
     y = 0
     for i in range(x):
@@ -36,6 +41,7 @@ def PrintTriangularNumberB(x):
 # print("Formula: " + str(PrintTriangularNumberA(x)) + " Loop: " + str(PrintTriangularNumberB(x)))
 
 
+# 6
 def SumPrimes(start, end):
     SumOfPrimes = 0
     for i in range(start, end + 1):

@@ -8,7 +8,6 @@ def grade(laborationDone, correctAnswers):
 
 
 while True:
-    print(grade(input("Är laborationen gjord? J/N ").upper(),
-                int(input("Hur många korrekta svar? "))))
+    print(grade(input("Är laborationen gjord? J/N ").upper(), int(input("Hur många korrekta svar? "))))
     if "J" == input("Är du klar? J/N ").upper():
         break
